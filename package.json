@@ -1,0 +1,28 @@
+{
+  "name": "superdocs-api",
+  "version": "1.0.0",
+  "description": "backend for superdocs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeeetPandya/superdocs-api.git"
+  },
+  "author": "Meet Pandya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MeeetPandya/superdocs-api/issues"
+  },
+  "homepage": "https://github.com/MeeetPandya/superdocs-api#readme",
+  "dependencies": {
+    "@google/genai": "^1.7.0",
+    "dotenv": "^16.6.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
